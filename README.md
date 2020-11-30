@@ -16,7 +16,7 @@ sudo gulp
 ```
 
 
-bunu yap
+bunu yap ( https://stackoverflow.com/questions/29817857/zsh-command-not-found-gulp )
 export PATH="$PATH:$HOME/.rvm/bin"
 PATH=$PATH:/usr/local/bin
 npm set prefix ~/.npm

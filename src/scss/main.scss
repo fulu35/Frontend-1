@@ -1,2 +1,75 @@
 // reset
 @import "reset";
+@import "https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,400;1,700&display=swap";
+
+body{
+    background-color: #303236;
+    font-family: Muli;
+}
+
+input{
+    height: 50px;
+    width: 100%;
+    background-color:#303236;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    &::placeholder {
+        color: rgba(#fff, .5);
+    }
+
+}
+.component--container{
+    max-width:377px;
+    margin:25px;
+}
+.form--container {
+    background-color: #3D3F43;
+    border-radius: 5px;
+    padding: 40px 45px;
+    form {
+        position: relative;
+        margin-bottom: 30px;
+        .search-icon {
+            position:absolute;
+            top:0;
+            left:0;
+            width: 53px;
+            height:50px;
+            display:flex;
+            align-items: center;
+            justify-content:center;
+        }
+    }
+    input {
+        padding-left:53px;
+        margin-bottom: 30px;
+    }
+    h6{
+        font-size:12px;
+        font-weight:bold;
+        color: #ffffff;
+        text-transform: uppercase;
+    } 
+    ul {
+        margin-top:14px;
+        li {
+            a{
+               display:block;
+               text-decoration: none;
+               font-size: 16px;
+               color:#ffff;
+               padding:6px 0px;
+               &:hover {
+                   color:#2CCDEA;
+                   font-weight: bold;
+               }
+            }
+            &.active a{
+                color:#2CCDEA;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
